@@ -23,7 +23,6 @@ export const App: React.FC = () => {
     loadingMessage,
     error,
     scannedPdfWarning,
-    selectedTextId,
     selectedTextIds,
     editingTextId,
     selectedTextObject,
