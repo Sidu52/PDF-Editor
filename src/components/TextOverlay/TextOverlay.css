@@ -1,0 +1,17 @@
+.text-overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+  overflow: visible;
+}
+
+.text-overlay-container.mode-add-text {
+  cursor: crosshair;
+}
+
+.text-overlay-container.mode-select {
+  cursor: default;
+}

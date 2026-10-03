@@ -1,0 +1,14 @@
+.pdf-page-container {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: var(--shadow-lg);
+  border-radius: 4px;
+  margin: 0 auto;
+  transition: width 0.15s ease-out, height 0.15s ease-out;
+  user-select: none;
+}
+
+.pdf-canvas {
+  display: block;
+  border-radius: 4px;
+}

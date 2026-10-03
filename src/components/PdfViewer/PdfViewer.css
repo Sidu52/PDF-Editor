@@ -1,0 +1,32 @@
+.pdf-workspace {
+  flex: 1;
+  height: calc(100vh - 60px);
+  background-color: var(--bg-workspace);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 1.5rem 5rem 1.5rem;
+  gap: 2rem;
+}
+
+.pages-scroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-width: min-content;
+}
+
+@media (max-width: 768px) {
+  .pdf-workspace {
+    padding: 1rem 0.5rem 4rem 0.5rem;
+    gap: 1.25rem;
+  }
+  
+  .pages-scroll-container {
+    gap: 1.25rem;
+  }
+}
